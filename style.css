@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-color: #08315e;
+    margin: 0;
+}
+
+p {
+    text-align: justify;
+    width: 700px;
+}
+
+h1 {
+    background-color: #101A34;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.Conteudo {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    text-align: center;
+}
+
+.Quadrados {
+    height: 1000px;
+    width: 800px;
+    background-color: rgb(255, 255, 255);
+    margin: 0 auto;
+    margin-top: 50px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    align-items: center;
+    justify-content: center;
+}
+
+.circulo-paleta {
+    width: 250px;
+    height: 250px;
+}
+
+.paleta {
+    width: 400px;
+    height: 450px;
+}
+
+.div-paletas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.circulo-cromatico {
+    width: 300px;
+    height: 300px;
+}
+
+.exemplo {
+    width: 150px;
+    height: 150px;
+    gap: 0;
+}
+
+.exemplos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.lista-ferramentas {
+    width: 700px;
+    height: 800px;
+    align-items: left;
+    justify-content: left;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
